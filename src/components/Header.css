@@ -1,0 +1,49 @@
+header {
+  height: 100px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #ffffff; */
+  /* padding-top: 10px; */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+a {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navLinkActive {
+  color: #0077b5;
+}
+
+.leftContainer {
+  display: flex;
+  align-items: center;
+}
+
+#logoImage {
+  height: 100px;
+  width: auto;
+  margin-left: 10px;
+}
+
+.navLink {
+  color: #ffffff; /* Default link color */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.navLink:hover {
+  color: #0077b5; /* Hover color (example: blue) */
+}

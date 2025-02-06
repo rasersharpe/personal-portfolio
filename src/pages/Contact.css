@@ -1,0 +1,16 @@
+section {
+  min-height: calc(100vh - 248px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0077b5;
+}
