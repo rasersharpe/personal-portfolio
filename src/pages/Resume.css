@@ -1,0 +1,14 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.frontList {
+  display: flex;
+  flex-direction: column;
+}
+
+.backList {
+  display: flex;
+  flex-direction: column;
+}

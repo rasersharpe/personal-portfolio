@@ -7,6 +7,9 @@ import "./Projects.css";
 import portfolio from "../assets/images/portfolio.png";
 import employee from "../assets/images/employee.png";
 import vehicle from "../assets/images/vehicle.png";
+import readme from "../assets/images/readme.png";
+import stopwatch from "../assets/images/stopwatch.png";
+import weather from "../assets/images/weather.png";
 
 const Projects = () => {
   const projects = [
@@ -31,6 +34,28 @@ const Projects = () => {
       techStack: "Node.js, PostgreSQL, Inquirer",
       image: vehicle,
       projectLink: "https://github.com/rasersharpe/vehicle-builder",
+    },
+    {
+      title: "README Generator",
+      description: "An easy to use README generator for your projects.",
+      techStack: "Node.js, PostgreSQL, Inquirer",
+      image: readme,
+      projectLink: "https://github.com/rasersharpe/README-generator",
+    },
+    {
+      title: "ChronoByte Stopwatch",
+      description: "A pleasing stopwatch with fun unicorn and space modes.",
+      techStack: "HTML, Bootstap, javascript",
+      image: stopwatch,
+      projectLink: "https://mbauer99621.github.io/Stopwatch-Timer/",
+    },
+    {
+      title: "Weather Dashboard",
+      description:
+        "An app that displays the current weather and forecast for a city.",
+      techStack: "HTML, CSS, javascript, TypeScript, OpenWeatherMap API",
+      image: weather,
+      projectLink: "https://weather-dashboard-ojrv.onrender.com/",
     },
   ];
 

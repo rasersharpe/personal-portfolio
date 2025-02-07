@@ -35,6 +35,14 @@ const NavItems = () => {
       </li>
       <li className="navItem">
         <Link
+          to="/resume"
+          className={currentPage === "/resume" ? "navLinkActive" : "navLink"}
+        >
+          [RESUME]
+        </Link>
+      </li>
+      <li className="navItem">
+        <Link
           to="/contact"
           className={currentPage === "/contact" ? "navLinkActive" : "navLink"}
         >
