@@ -22,7 +22,7 @@ const Footer = () => {
         >
           <FontAwesomeIcon icon={faGithub} size="2x" className="fa-icon" />
         </a>
-        <FontAwesomeIcon icon={faLinkedin} size="3x" className="fa-icon" />
+{/*         <FontAwesomeIcon icon={faLinkedin} size="3x" className="fa-icon" /> */}
         <a href="mailto:jay.bhatt@me.com">
           <FontAwesomeIcon
             icon={faSquareEnvelope}
